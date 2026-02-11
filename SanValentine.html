@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>San Valentine 💘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fuente retro estilo videojuego -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Pantalla 1 -->
+    <section class="screen" id="screen1">
+        <h1>❤️ SAN VALENTINE ❤️</h1>
+        <p class="start" id="startBtn">DALE CLICK PARA COMENZAR ...</p>
+    </section>
+
+<!-- Pantalla 2 -->
+<section class="screen hidden sky" id="screen2">
+
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+
+    <img src="star.png" class="flying-star" alt="estrella feliz">
+
+</section>
+
+
+
+<!-- Pantalla 3 -->
+<section class="screen hidden game-screen" id="screen3">
+
+    <img src="video.gif" class="gif-bg" alt="fondo">
+
+    <!-- Marco tipo videojuego -->
+    <div class="game-frame">
+
+        <div class="retro-card">
+            <h1 class="retro-title">¿QUIERES SER MI SAN VALENTINE?</h1>
+
+            <div class="retro-buttons">
+                <button class="btn-retro btn-yes" id="yesBtn">▶ SI</button>
+                <button class="btn-retro btn-no" id="noBtn">▶ NO</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Pantalla 4 -->
+    <section class="screen hidden" id="screen4">
+        <div class="card">
+            <h1>💘 TE AMOOO gracias por aceptar !!! 💘</h1>
+            <p>Eres la persona más importante en mi mundo</p>
+        </div>
+    </section>
+
+    <!-- Pantalla 5 -->
+    <section class="screen hidden" id="screen5">
+        <div class="card">
+            <h1>TE ODIO 😢</h1>
+            <p>Vayase con el otro entonces, ush ...</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
